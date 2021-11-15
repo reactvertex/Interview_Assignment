@@ -1,8 +1,10 @@
 import React from "react";
 
-function InputBox ({handleChange,type,name}){
+function InputBox ({handleChange,type,name,placeholder}){
     return (
-        <input name={name} type={type} onChange={handleChange}/>
+        <div className="my-2">
+            <input required  className="form-control " placeholder={placeholder} name={name} type={type} onChange={(e) =>handleChange(e)}/>
+        </div>
     )
 }
 
