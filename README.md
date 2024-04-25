@@ -100,18 +100,95 @@ Hide/Show table of contents
 |     | **Core React**                                                                                                                                                                                                                                            |
 | 1   | Introduction JSX                                                                                                                                                                                               |
 | 2   | What is React Component                                                                                                                                       
-| 3   | Component State and Props
-| 4   | Adding Style (CSS)                                                                                                                                                                                   
-| 5   | Functional and Class Component                                                                                                                  
-| 6   | React Lifecycle Methods
-| 7   | Virtual Dom                                                                                                             
-| 8   | React Hooks                                                                                                                                                                      
-| 9   |  Custom Hooks                                                                                                                                                                
-| 10  | Context API                                                                                                                                                                   
-| 11  | Synthetic Events
-| 12  | Routing                                                                                                 
-| 13  | Data Flow (Redux /Flux)                                                                                                                                                    
-| 14  | Server-Side Rendering                                                                                                                                             
-| 15  | Unit Testing                                                           
-| 16  | Understanding Webpack (Bundler)                                                                                                                                                 
-| 17  | Babel , env, prettier,Linter                                                               
+| 3   | What are the main advantages of React.js?
+| 4   | Describe an event in React.js?                                                                                                                                             
+| 5   | How do Lists work in React.js?                                                                                                                 
+| 6   | Why are keys used in React.js Lists?
+| 7   | Is HTML used in React?                                                                                                       
+| 8   | What is the release date of React?                                                                                                                                              
+| 9   |  Can you tell two downsides of React?                                                                                                                                       
+| 10  | Can you outline the differences between Real DOM and Virtual DOM?                                                                                                          
+| 11  | Explain Flux Concept In React.
+| 12  | Explain the ‘Store’ feature.                                                                                          
+| 13  | What is a high order component in React?                                                                                                                                        
+| 14  | What is the Presentational segment?                                                                                                                                      
+| 15  | Explain Props in ReactJS.                                                          
+| 16  | What does super keyword mean in React?                                                                                                                                          
+| 17  | What is yield catchphrase in JavaScript?
+| 18  | List the two types of React component.                                                                                                                                      
+| 19  | What is a synthetic event in ReactJS?                                                        
+| 20  | In Redux, what is an action?                                                                                                                                        
+| 21  | What are stateless components?
+| 22  | What is React Router?                                                                                                                                    
+| 23  | Can you list some animation packages in React?                                                         
+| 24  | Explain Jest.                                                                                                                                          
+| 25  | What exactly is the dispatcher? 
+| 26  | Explain React State.                                                                                                                                      
+| 27  | Can a State be updated in ReactJS?                                                      
+| 28  | What is the use of arrow function in React?                                                                                                                                     
+| 29  | List the lifecycle steps of React.
+| 30  | What are React portals?                                                                                                                                  
+| 31  | Explain Context.                                                        
+| 32  | What is the use of Webpack?                                                                                                                                      
+| 33  | What is Babel?
+| 34  | How are ReactJS and React Native different?                                                                                                                                    
+| 35  | How do browsers read JSX files?                                                        
+| 36  | What is the most advised way for naming components?                                                                                                                            
+| 37  | Mention one difference between Props and State.
+| 38  | What are pure components in ReactJS?                                                                                                                                   
+| 39  | What does ‘key’ do in React list?                                                        
+| 40  | Explain children's prop.                                                                                                                                          
+| 41  | What are error boundaries?
+| 42  | Why will you use empty tags <> </>?                                                                                                                            
+| 43  | Tell us about strict mode.                                                      
+| 44  | What is React Fiber?                                                                                                                                         
+| 45  | Can you differentiate between createElement and cloneElement?
+| 46  | Explain Lifting State Up in React                                                                                                                                      
+| 47  | Explain stateful components.                                                       
+| 48  | Tell me, how will you memoize a component in React?                                                                                                                             
+| 49  | How to use production mode in React?
+| 50  | Explain switching components.                                                                                                                                   
+| 51  | How will you update props in React?                                                        
+| 52  | What do you understand by the term ‘Restructuring’ ?                                                                                                                            
+| 53  | Can the values of props be updated?
+| 54  | Can I use web components in React application ?                                                                                                                                 
+| 55  | Why is ‘prop-types’ library used?                                                  
+| 56  | What are React hooks?                                                                                                                                  
+| 57  | What do you know about Controlled Components?
+| 58  | What are refs?                                                                                                                                 
+| 59  | How do you implement routing in ReactJS?                                                     
+| 60  | Can you attach a JSX element to other JSX components?                                                                                                                           
+| 61  | With pure components, what is the issue of using render props?
+| 62  | Explain the windowing technique.                                                                                                                                    
+| 63  | How can you fetch data with React Hooks?                                                        
+| 64  | What is Formik?                                                                                                                          
+| 65  | Can you list some middleware choices for tackling asynchronous calls in Redux?
+| 66  | Can browsers understand JSX code? Explain.                                                                                                                                  
+| 67  | What is one-way data flow in React?                                                        
+| 68  | Explain Concurrent Rendering.                                                                                                                                          
+| 69  | Are concurrent mode and async mode different?
+| 70  | What is prop drilling?                                                                                                                                          
+| 71  | What is virtual DOM?
+| 72  | Why do we use keys in Lists?                                                                                                                          
+| 73  | Explain React forms?                                                      
+| 74  | What are the components in React?                                                                                                                                   
+| 75  | Tell us about MobX.
+| 76  | How is an application created using ReactJS?                                                                                                                                    
+| 77  | What are React Dev Tools?                                                    
+| 78  | Why would you do it if DevTools does not load in Chrome for local files?                                                                                                       
+| 79  | Tell me some advantages of React over VueJS.
+| 80  | What is render hijacking in React?                                                                                                                                 
+| 81  | How can you pass numbers to the React component?                                                        
+| 82  | Explain React memo function.                                                                                                                           
+| 83  | Tell me some benefits of React Router V4.
+| 84  | How uncaught errors behave in React 16?                                                                                                                          
+| 85  | What are default props?                                                 
+| 86  | What browser React applications support?                                                                                                                           
+| 87  | Is it necessary for keys to be globally unique?
+| 88  | What methods are invoked during error handling?                                                                                                                                
+| 89  | Do you know the use of the unmountComponentAtNode method?                                                    
+| 90  | On what condition, do component props defaults to true?                                                                                                                         
+| 91  | With pure components, what is the issue of using render props?
+| 92  | How will you build a search filter using React?                                                                                                                                 
+| 93  | Can the statics object work with ES6 classes?                                                      
+| 94  | How will you make Redux Form initialValues get updated from state?                                                                                                              
